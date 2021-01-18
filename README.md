@@ -1,5 +1,5 @@
 # Teste Cypress
-> Repositório de teste de automáticos com cypress.
+> Repositório de teste automáticos com cypress.
 
 
 Desenvolvido com cypress, esse repositório contem alguns testes automatizados. O objetivo é validar api de conversão de números décimais
