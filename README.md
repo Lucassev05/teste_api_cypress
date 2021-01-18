@@ -1,9 +1,9 @@
-# Desafio Delivery Much
-> Repositório para resolução do desafio de qualidade da DM.
+# Teste Cypress
+> Repositório para teste de automação com cypress.
 
 
-Desenvolvido com cypress, esse repositório contem alguns testes automatizados feitos utilizando a api da Delivery Much como teste. O objetivo é validar a conversão de números décimais
-em sua versão por extenso.
+Desenvolvido com cypress, esse repositório contem alguns testes automatizados. O objetivo é validar api de conversão de números décimais
+em sua versão por extenso, seja ela em portugês ou inglês.
 ![](../header.png)
 
 ## Instalação
@@ -43,6 +43,11 @@ $ npm install
 
 ```shell
 $ npm run cypress
+```
+
+Para visualizar melhor os testes e as validações feitas, sugiro executar o teste via interface
+```shell
+$ npm run cypress:open
 ```
 
 ### Gerar relatório HTML
