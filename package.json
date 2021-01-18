@@ -1,0 +1,21 @@
+{
+  "name": "desafio_dm2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:report": "generate-mochawesome-report",
+    "cypress:open": "npx cypress open",
+    "cypress": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.2.1",
+    "cypress-mochawesome-reporter": "^1.3.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "faker": "^5.1.0",
+    "mochawesome": "^6.2.1"
+  }
+}

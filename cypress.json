@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://challengeqa.staging.devmuch.io",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "overwrite": "false",
+    "reportPageTitle": "Relatório de testes automáticos",
+    "reportTitle": "Relatório de testes automáticos",
+    "showPassed": "true",
+    "autoOpen": "false",
+    "charts": "true",
+    "code": "false"
+  }
+}
