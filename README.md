@@ -60,3 +60,4 @@ obs: Para gerar corretamente o relatório, é necessário executar todos os test
 ## Tecnologias Utilizadas
 - <a href="https://nodejs.org/" target="_blank">Node.js</a>
 - <a href="https://www.cypress.io/" target="_blank">Cypress</a>
+- <a href="https://www.npmjs.com/package/cypress-mochawesome-reporter" target="_blank">Mochawesome Reporter</a>
