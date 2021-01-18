@@ -1,4 +1,5 @@
 const faker = require("faker");
+const { converter } = require("../helper/conversor");
 
 const elementosInvalidos = [
   `-${faker.random.number({ min: 10002 })}`,
@@ -13,22 +14,30 @@ const elementosInvalidos = [
 const elementosValidos = [
   {
     numero: "-10000",
-    extensoPt: "menos dez mil",
+    extensoPt: converter("-10000"),
     extensoEn: "minus ten thousands",
   },
   {
     numero: "-9999",
-    extensoPt: "menos nove mil novecentos e noventa e nove",
+    extensoPt: converter("-9999"),
     extensoEn: "minus nine thousand, nine hundred and ninety-nine",
   },
-  { numero: "0001", extensoPt: "um", extensoEn: "one" },
-  { numero: "5", extensoPt: "cinco", extensoEn: "five" },
+  {
+    numero: "0001",
+    extensoPt: converter("0001"),
+    extensoEn: "one",
+  },
+  { numero: "5", extensoPt: converter("5"), extensoEn: "five" },
   {
     numero: "9999",
-    extensoPt: "nove mil novecentos e noventa e nove",
+    extensoPt: converter("9999"),
     extensoEn: "nine thousand, nine hundred and ninety-nine",
   },
-  { numero: "10000", extensoPt: "dez mil", extensoEn: "ten thousand" },
+  {
+    numero: "10000",
+    extensoPt: converter("10000"),
+    extensoEn: "ten thousand",
+  },
 ];
 
 const metodos = ["POST", "DELETE", "PUT"];

@@ -1,6 +1,6 @@
-import Assert from "../support/helper/assertation";
-import { request } from "../support/pageObjects/conversor/conversor";
-import Data from "../support/pageObjects/conversor/data";
+import Assert from "../support/helper/asserts";
+import { request } from "../support/helper/request";
+import Data from "../support/data/conversor";
 
 context("Validação de Conversor de Decimal", () => {
   // Validação de dados inválidos no idioma português
